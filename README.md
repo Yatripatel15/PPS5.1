@@ -2,7 +2,8 @@
 About odd numbers and their sum
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int n, sum = 0;
 
     // Asking for input
@@ -13,7 +14,8 @@ int main() {
 
     // Loop to display odd numbers and calculate the sum
     for(int i = 1, count = 0; count < n; i++) {
-        if(i % 2 != 0) {
+        if(i % 2 != 0)
+        {
             printf("%d ", i);
             sum += i;
             count++;
